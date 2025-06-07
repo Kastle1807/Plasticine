@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plasticine"
+version = "0.1.0"
+description = "Plasticine: Accelerating Research in Plasticity-Motivated Deep Reinforcement Learning"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Reinforcement Learning Evolution Foundation" }]
+keywords = ["reinforcement learning", "plasticity"]
+
+[project.urls]
+Homepage = "https://github.com/RLE-Foundation/Plasticine"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["plasticine*"]
