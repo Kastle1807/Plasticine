@@ -22,6 +22,19 @@
 
 > Join the [Discord](https://discord.gg/swMV6kgV) channel for discussion!
 
+## Installation
+Plasticine can be installed as a standard Python package using `pip`:
+
+```bash
+pip install plasticine
+```
+
+Alternatively, clone the repository and install in editable mode for development:
+
+```bash
+pip install -e .
+```
+
 ## Quick Start
 - Create an environment and install the dependencies:
 ``` sh
